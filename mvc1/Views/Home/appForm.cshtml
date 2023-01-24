@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+<head>
+    <title>registeration form</title>
+</head>
+<body>
+        <h1>registeration form</h1>
+        <form action="/home/addtoGuests">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text"/>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email"/>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="text" />
+            <label>>Will attend?</label>
+             <label for="willAttendtrue">yes</label>
+            <input id="willAttendtrue" value="yes" name="willAttend" type="radio" />
+            <label for="willAttendfalse">no</label>
+            <input id="willAttendfalse" value="no" name="willAttend" type="radio" />
+            <input type="submit" value="Submit"/>
+        </form>
+        <button><a href="/home">back</a></button>
+        <button><a href="/home/showGuests">guests list</a></button>
+
+
+
+</body>
+</html>
